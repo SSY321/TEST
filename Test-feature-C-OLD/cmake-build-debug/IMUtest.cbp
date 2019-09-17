@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="IMUtest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IMUtest">
+				<Option output="/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/IMUtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./Timer"/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/."/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./App"/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./CAN"/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./Math"/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./MPI204A"/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./Odom_Calib"/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./PGV150"/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./UART"/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./TCP"/>
+					<Add directory="/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/c++/4.9.1"/>
+					<Add directory="/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/c++/4.9.1/arm-poky-linux-gnueabi"/>
+					<Add directory="/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/c++/4.9.1/backward"/>
+					<Add directory="/opt/poky/1.7/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/include"/>
+					<Add directory="/opt/poky/1.7/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/include-fixed"/>
+					<Add directory="/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 IMUtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IMUtest/fast">
+				<Option output="/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/IMUtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./Timer"/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/."/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./App"/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./CAN"/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./Math"/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./MPI204A"/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./Odom_Calib"/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./PGV150"/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./UART"/>
+					<Add directory="/home/siasunhebo/CLionProjects/Test-feature-B/./TCP"/>
+					<Add directory="/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/c++/4.9.1"/>
+					<Add directory="/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/c++/4.9.1/arm-poky-linux-gnueabi"/>
+					<Add directory="/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/c++/4.9.1/backward"/>
+					<Add directory="/opt/poky/1.7/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/include"/>
+					<Add directory="/opt/poky/1.7/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/include-fixed"/>
+					<Add directory="/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 IMUtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/App/Interpolation.c">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/App/Interpolation.h">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/App/Movement.c">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/App/Movement.h">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/CAN/can.c">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/CAN/can.h">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/MPI204A/MPI204A.c">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/MPI204A/MPI204A.h">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/Math/Trigonometric.c">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/Math/Trigonometric.h">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/Odom_Calib/Odom_Calib.c">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/Odom_Calib/Odom_Calib.h">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/PGV150/PGV150.c">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/PGV150/PGV150.h">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/TCP/1200.c">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/TCP/1200.h">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/TCP/TCP.c">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/TCP/TCP.h">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/TCP/buffer.h">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/TCP/net.h">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/TCP/protocol.h">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/Timer/Timer.c">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/Timer/Timer.h">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/UART/UART.c">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/UART/UART.h">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/main.c">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/main.h">
+			<Option target="IMUtest"/>
+		</Unit>
+		<Unit filename="/home/siasunhebo/CLionProjects/Test-feature-B/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
